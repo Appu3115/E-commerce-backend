@@ -17,7 +17,7 @@ import com.example.ecpro.service.OrderService;
 
 @RestController
 @RequestMapping("/api/orders")
-@CrossOrigin(origins= "*")
+@CrossOrigin(origins= "https://appuecom.netlify.app")
 public class OrderController {
 
     @Autowired

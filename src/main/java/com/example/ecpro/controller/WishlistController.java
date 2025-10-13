@@ -15,7 +15,7 @@ import com.example.ecpro.service.WishlistService;
 
 @RestController
 @RequestMapping("/api/wishlist")
-@CrossOrigin(origins= "*")
+@CrossOrigin(origins= "https://appuecom.netlify.app")
 public class WishlistController {
 
     @Autowired

@@ -17,7 +17,7 @@ import com.example.ecpro.service.UserService;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins= "*")
+@CrossOrigin(origins= "https://appuecom.netlify.app")
 public class UserController {
 
     @Autowired

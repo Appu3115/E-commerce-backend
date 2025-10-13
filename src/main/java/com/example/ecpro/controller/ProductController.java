@@ -19,7 +19,7 @@ import com.example.ecpro.service.ProductService;
 
 @RestController
 @RequestMapping("/api/admin/products")
-@CrossOrigin(origins= "*")
+@CrossOrigin(origins= "https://appuecom.netlify.app")
 public class ProductController {
 
     @Autowired

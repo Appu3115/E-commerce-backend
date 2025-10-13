@@ -18,7 +18,7 @@ import com.example.ecpro.service.ReviewService;
 
 @RestController
 @RequestMapping("/api/reviews")
-@CrossOrigin(origins= "*")
+@CrossOrigin(origins= "https://appuecom.netlify.app")
 public class ReviewController {
 
     @Autowired
