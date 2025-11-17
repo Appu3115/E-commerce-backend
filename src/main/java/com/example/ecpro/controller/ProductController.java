@@ -1,6 +1,7 @@
 package com.example.ecpro.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -19,7 +20,9 @@ import com.example.ecpro.service.ProductService;
 
 @RestController
 @RequestMapping("/api/admin/products")
-@CrossOrigin(origins= "https://appuecom.netlify.app")
+//@CrossOrigin(origins= "https://appuecom.netlify.app")
+@CrossOrigin(origins= "*")
+//@Profile("prod")
 public class ProductController {
 
     @Autowired
